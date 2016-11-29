@@ -1,0 +1,6 @@
+{
+  "name": "Jq-animate-blocks",
+  "tagline": "Скрипт для добавления анимации плавного отображения html-блоков",
+  "body": "# jq-animate-blocks\r\nСкрипт для добавления анимации плавного отображения html-блоков\r\n\r\nСодержит одну единственную функцию, которая даёт анимацию блокам с классом \"anim\"\r\nДополнительно можно установить атрибут  AnimSpeed для изменения скорости анимации в милисекундах\r\n##Пример использования:\r\n```html\r\n<div class=\"anim\" AnimSpeed=\"10000\" style=\"background-color:#c0e38d; \">\r\n\t<h1><span style=\"color: rgb(118, 146, 60);\">Этот текст будет всплывать аж 10 секунд</span></h1>\r\n</div>\r\n```\r\n##Параметры:\r\n**class** = \"anim\" — имя класса по умолчанию, по которому ищутся блоки для включения анимации.\r\n\r\n**AnimSpeed** = digit — время анимации в милисекундах, по-умолчанию — 500.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
